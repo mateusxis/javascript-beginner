@@ -28,7 +28,7 @@ Ao abrir o DevTools, você verá a aba **Console** e permitirá escrever todo o 
 
 ![Figura 2](./assets/dev-tools-alert-ola-mundo.png)
 
-Vamos fazer o nosso primeiro código, ou script. Temos duas maneiras de executar JavaScript em uma página HTML. Necessitamos criar um arquivo HTML ([_ola-mundo-v1.js_](./ola-mundo-v1.js)), o exemplo abaixo declaramos um tag script no arquivo HTML e, dentro da tag, colocar o código JavaScript. Agora, basta você rodar o arquivo HTML no seu navegador.
+Vamos fazer o nosso primeiro código, ou script. Temos duas maneiras de executar JavaScript em uma página HTML. Necessitamos criar um arquivo HTML ([_ola-mundo-v1.html_](./ola-mundo-v1.html)), o exemplo abaixo declaramos um tag script no arquivo HTML e, dentro da tag, colocar o código JavaScript. Agora, basta você rodar o arquivo HTML no seu navegador.
 
 
 ```html
