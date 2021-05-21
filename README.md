@@ -1,1 +1,1 @@
-# javascript-beginner
+# javascript-iniciante
