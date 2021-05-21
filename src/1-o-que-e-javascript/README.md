@@ -1,5 +1,7 @@
 # JavaScript, a linguagem dos navegadores
 
+![Código JavaScript minificado](./assets/javascript-artigo-1-capa.jpg)
+
 JavaScript é extremamente eficaz, uma das linguagens de programação mais utilizada atualmente. Ela pode ser utilizada em vários contextos, no frontend para adicionar interativadade ao seu site; no backend através do Node.js; em aplicativos para celulares, tanto APK para Android e IPA iOS (Apple); aplicações desktop disponíveis em Linux, Mac OS e Windows; em ambiente IoT (Internet of Things, Internet das Coisas).
 
 Se você é ou vai ser um desenvolvedor web, é indispensável ter essa linguagem em seu currículo.
