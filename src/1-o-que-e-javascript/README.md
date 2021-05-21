@@ -26,4 +26,53 @@ Podemos abrir o DevTools de duas formas:
 
 Ao abrir o DevTools, você verá a aba **Console** e permitirá escrever todo o seu código JavaScript na linha de comando _(Figura 2)_, atenção, para executar o código-fonte, é preciso apertar _Enter_:
 
-![Figura 2](./assets/dev-tools-alert-hello-world.png)
+![Figura 2](./assets/dev-tools-alert-ola-mundo.png)
+
+Vamos fazer o nosso primeiro código, ou script. Temos duas maneiras de executar JavaScript em uma página HTML. Necessitamos criar um arquivo HTML ([_ola-mundo-v1.js_](./ola-mundo-v1.js)), o exemplo abaixo declaramos um tag script no arquivo HTML e, dentro da tag, colocar o código JavaScript. Agora, basta você rodar o arquivo HTML no seu navegador.
+
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Olá mundo!</title>
+  </head>
+  <body>
+    <script>
+      console.log("Olá Mundo!");
+      alert("Olá Mundo!");
+    </script>
+  </body>
+</html>
+```
+
+A segunda maneira, é criar um arquivo JavaScript ([_ola-mundo-v2.js_](./ola-mundo-v2.js)) e, adicionar o código JavaScript abaixo.
+
+```js
+console.log("Olá Mundo!");
+alert("Olá Mundo!");
+```
+
+O arquivo HTML ([_ola-mundo-v2.html_](./ola-mundo-v2.html)) é semelhante ao arquivo HTML anterior, porém importamos o código JavaScript através da tag script. **Importante**, o arquivo HTML e JavaScript precisam está na mesma pasta, ou muda o caminho para pasta do arquivo JavaScript.
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Olá mundo!</title>
+  </head>
+  <body>
+    <script src="ola-mundo-v2.js"></script>
+  </body>
+</html>
+```
+
+As duas maneiras executam o código de forma semelhante, retornando a mesma saída. Com tudo, o segundo exemplo é o mais usado pelos desenvolvedores JavaScript.
+
+No [próximo artigo](../2-javascript-variaveis-escopo-operadores/README.md), vamos conversar sobre variável, escopo das variáveis e operadores.
+
+### Referências Bibligráficas:
+- [MDN Web docs](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [Livro Estruturas de dados e algoritmos com JavaScript — Groner, L](https://www.google.com.br/books/edition/Estruturas_de_dados_e_algoritmos_com_Jav/0nWKDwAAQBAJ?hl=pt-BR)
