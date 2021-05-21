@@ -20,10 +20,10 @@ Podemos abrir o DevTools de duas formas:
 
 1. Clique no menu no canto superior direito, Mais ferramentas -> Ferramentas do Desenvolvedor.
 
-![Figura 1](/assets/dev-tools.png)
+![Figura 1](./assets/dev-tools.png)
 
 1. Aperte o atalho `Ctrl+Shift+I`.
 
 Ao abrir o DevTools, você verá a aba **Console** e permitirá escrever todo o seu código JavaScript na linha de comando _(Figura 2)_, atenção, para executar o código-fonte, é preciso apertar _Enter_:
 
-![Figura 2](/assets/dev-tools-alert-hello-world.png)
+![Figura 2](./assets/dev-tools-alert-hello-world.png)
