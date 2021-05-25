@@ -1,6 +1,7 @@
 # JavaScript, a linguagem dos navegadores
 
 ![Código JavaScript minificado](./assets/javascript-artigo-1-capa.jpg)
+_Imagem de [Markus Spiske](https://pixabay.com/pt/users/markusspiske-670330/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1486361) por [Pixabay](https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1486361)_
 
 JavaScript é extremamente eficaz, uma das linguagens de programação mais utilizada atualmente. Ela pode ser utilizada em vários contextos, no frontend para adicionar interativadade ao seu site; no backend através do Node.js; em aplicativos para celulares, tanto APK para Android e IPA iOS (Apple); aplicações desktop disponíveis em Linux, Mac OS e Windows; em ambiente IoT (Internet of Things, Internet das Coisas).
 
@@ -23,12 +24,14 @@ Podemos abrir o DevTools de duas formas:
 1. Clique no menu no canto superior direito, Mais ferramentas -> Ferramentas do Desenvolvedor.
 
 ![Figura 1](./assets/dev-tools.png)
+_Figura 1_
 
 2. Aperte o atalho `Ctrl+Shift+I`.
 
 Ao abrir o DevTools, você verá a aba **Console** e permitirá escrever todo o seu código JavaScript na linha de comando _(Figura 2)_, atenção, para executar o código-fonte, é preciso apertar _Enter_:
 
 ![Figura 2](./assets/dev-tools-alert-ola-mundo.png)
+_Figura 2_
 
 Vamos fazer o nosso primeiro código, ou script. Temos duas maneiras de executar JavaScript em uma página HTML. Necessitamos criar um arquivo HTML ([_ola-mundo-v1.html_](./ola-mundo-v1.html)), o exemplo abaixo declaramos um tag script no arquivo HTML e, dentro da tag, colocar o código JavaScript. Agora, basta você rodar o arquivo HTML no seu navegador.
 
