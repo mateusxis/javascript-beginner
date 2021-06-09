@@ -1,6 +1,6 @@
-# Começando no mundo JavaScript - Variáveis e seus escopos e Operadores
+# Começando no mundo JavaScript - Variáveis e seus escopos
 
-![Imagem de Operarários](./assets/operadores.jpg)
+![Imagem de Operários](./assets/operadores.jpg)
 _Imagem de [Alexas Fotos](https://pixabay.com/pt/users/alexas_fotos-686414/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3094035) por [Pixabay](https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3094035)_
 
 ## Variáveis
