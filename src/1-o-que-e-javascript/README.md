@@ -76,7 +76,7 @@ O arquivo HTML ([_ola-mundo-v2.html_](./ola-mundo-v2.html)) é semelhante ao arq
 
 As duas maneiras executam o código de forma semelhante, retornando a mesma saída. Com tudo, o segundo exemplo é o mais usado pelos desenvolvedores JavaScript.
 
-No [próximo artigo](../2-javascript-variaveis-escopo-operadores/README.md), vamos conversar sobre variável, escopo das variáveis e operadores.
+No [próximo artigo](../2-javascript-variaveis-escopo/README.md), vamos conversar sobre variável e escopo das variáveis.
 
 ### Referências Bibligráficas:
 - [MDN Web docs](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
