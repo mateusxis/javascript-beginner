@@ -4,13 +4,13 @@ var numFloat = 1.3; // {3}
 var meuNome = "Mateus"; // {4}
 var nulo = null; // {5}
 var indefinido; // {6}
-var meuArray = [1, 2, 3, 4];
+var meuArray = [1, 2, 3, 4]; // {7}
 var meuObjeto = {
   nome: "Mateus",
-};
-meuNome = "Não é Johnny"; // {7}
-num = 2; // {8}
-numFloat = 2.5; // {9}
+}; // {8}
+meuNome = "Não é Johnny"; // {9}
+num = 2; // {10}
+numFloat = 2.5; // {11}
 
 console.log("boolTrue", boolTrue);
 console.log("num", num);
