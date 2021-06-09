@@ -46,6 +46,7 @@ console.log("meuObjeto", meuObjeto);
 ```
 
 Teste o exemplo acima no console do seu navegador. Terá um saída assim:
+
 ![Resultado do código variaveis-tipo.js](./assets/log-variaveis.png)
 _Resultado do código [variaveis-tipo.js](./variaveis-tipo.js)_
 
@@ -64,10 +65,11 @@ _Resultado do código [variaveis-tipo.js](./variaveis-tipo.js)_
 >Obs.: Como o JavaScript não é fortemente tipado. Isso significa que podemos declarar uma variável, como número e posteriormente atualizá-la com uma string ou outro tipo de dado. Esse tipo de operação não é considerado uma boa prática.
 
 ### Entendi… Mas você não falou qual é a diferença entre `var`, `let` ou `const`?
-![calma tenho a solução](./assets/calm-vr.jpg)
-_Foto de [Sound On](https://www.pexels.com/pt-br/@sound-on?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) no [Pexels](https://www.pexels.com/pt-br/foto/mulher-usando-oculos-vr-pretos-3761267/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)_
 
 Calma, meu amigo… Irei explicar na próxima seção.
+
+![calma tenho a solução](./assets/calm-vr.jpg)
+_Foto de [Sound On](https://www.pexels.com/pt-br/@sound-on?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) no [Pexels](https://www.pexels.com/pt-br/foto/mulher-usando-oculos-vr-pretos-3761267/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)_
 
 ### Tipo de declarações de variáveis
 
@@ -93,6 +95,8 @@ variavelLet = "let outro dado"; // {8}
 console.log(variavelVar);
 console.log(variavelLet);
 ```
+Teste o exemplo acima no console do seu navegador. Terá um saída assim:
+
 ![Resultado do código variavel-tipo-2.js](./assets/log-tipo-variavel.png)
 _Resultado do código [variavel-tipo-2.js](./variavel-tipo-2.js)_
 
@@ -113,4 +117,8 @@ Basicamente, o escopo é o local em que podemos acessar a variável no algoritmo
 
 ///Texto explicando o gists
 
-## Operadores
+No [próximo artigo](../3-operadores/README.md), vamos conversar sobre operadores.
+
+### Referências Bibligráficas:
+- [MDN Web docs](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [Livro Estruturas de dados e algoritmos com JavaScript — Groner, L](https://www.google.com.br/books/edition/Estruturas_de_dados_e_algoritmos_com_Jav/0nWKDwAAQBAJ?hl=pt-BR)
