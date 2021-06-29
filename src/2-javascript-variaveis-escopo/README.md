@@ -147,7 +147,11 @@ _Resultado do código [variavel-escopo.js](./variavel-escopo.js)_
 
 >Obs.: Um número elevado de variáveis e funções globais é ruim para a qualidade do código, sempre que possível evite variáveis globais.
 
-No [próximo artigo](../3-operadores/README.md), vamos conversar sobre operadores.
+### Obrigado pela sua leitura
+![Imagem de agradecimento](./assets/obrigado.jpg)
+_Foto de [Maksim Goncharenok](https://www.pexels.com/pt-br/@maksgelatin?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) no [Pexels](https://www.pexels.com/pt-br/foto/agricultura-milho-interior-colheita-5484081/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)_
+
+Nos encontramos no [próximo artigo](../3-operadores/README.md), vamos conversar sobre operadores.
 
 ### Referências Bibligráficas:
 - [MDN Web docs](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
