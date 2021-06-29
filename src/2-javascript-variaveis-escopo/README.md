@@ -1,7 +1,7 @@
 # Começando no mundo JavaScript - Variáveis e seus escopos
 
-![Imagem de Operários](./assets/operadores.jpg)
-_Imagem de [Alexas Fotos](https://pixabay.com/pt/users/alexas_fotos-686414/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3094035) por [Pixabay](https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3094035)_
+![Imagem de Codigo](./assets/code-html.jpg)
+_Foto de [Pixabay](https://www.pexels.com/pt-br/@pixabay) no [Pexels](https://www.pexels.com/pt-br/foto/codigo-fonte-270408/)_
 
 ## Variáveis
 
@@ -113,9 +113,39 @@ _Resultado do código [variavel-tipo-2.js](./variavel-tipo-2.js)_
 ### Escopo de variáveis
 Basicamente, o escopo é o local em que podemos acessar a variável no algoritmo. Podemos ter variáveis **locais** ou **globais**.
 
-///Gists de escopo de váriaveis
+Vamos analisar o código a seguir:
+```js
+var minhaVariavel = "global";
+var outraVariavel = "global";
 
-///Texto explicando o gists
+function minhaFuncao() {
+  var minhaVariavel = "local";
+  return minhaVariavel;
+}
+
+function outraFuncao() {
+  outraVariavel = "local";
+
+  return outraVariavel;
+}
+
+console.log("minhaVariavel =>", minhaVariavel); //{1}
+console.log("minhaFuncao() =>", minhaFuncao()); //{2}
+console.log("outraVariavel =>", outraVariavel); //{3}
+console.log("outraFuncao() =>", outraFuncao()); //{4}
+console.log("outraVariavel =>", outraVariavel); //{5}
+```
+
+![Resultado do código variavel-escopo.js](./assets/log-escopo.png)
+_Resultado do código [variavel-escopo.js](./variavel-escopo.js)_
+
+* **{1}** O log exebirá **minhaVariavel => global** porque acessamos a variável global `minhaVariavel`;
+* **{2}** O log exebirá **minhaFuncao() => local** porque declaramos a variável local `minhaVariavel` dentro da função `minhaFuncao`, então o espoco está apenas no interior de `minhaFuncao`;
+* **{3}** O log exebirá **outraVariavel => global** porque acessamos a variável global `outraVariavel`;
+* **{4}** O log exebirá **outraFuncao() => local** porque acessamos a variável global `outraVariavel` e atribuímos o valor `local`, pois não declaramos `outraVarivel` usando a palavra reservada var;
+* **{5}** O log exebirá **outraVariavel => local** porque acessamos a variável global `outraVariavel`, pois o valor da variável foi alterado pela função `outraFuncao`;
+
+>Obs.: Um número elevado de variáveis e funções globais é ruim para a qualidade do código, sempre que possível evite variáveis globais.
 
 No [próximo artigo](../3-operadores/README.md), vamos conversar sobre operadores.
 
